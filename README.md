@@ -1,7 +1,7 @@
 # Smart India Hackathon Workshop
-# Date:
-## Reference Number:
-## Name:
+# Date:24/10/2026
+## Reference Number:26002598
+## Name:kavin krishna G
 
 ## Problem Title
 SIH 26033: Multiple intermediaries reduce farmers earnings and increase consumer prices.
@@ -26,27 +26,38 @@ Benefits:
 • Reduced supply chain inefficiencies.
 
 ## Proposed Solution
-Remove These Lines
-1. Detailed explanation of the proposed solution
-2. How it addresses the problem
-3. Innovation and uniqueness of the solution
+Farmers and FPOs sell directly to consumers and bulk buyers through one app, which removes middlemen.
+It shows a price breakup (farmer share, transport, platform fee) so everyone sees where the money goes.
+AI suggests prices from past data and plans delivery routes to cut transport cost.
+Innovation: transparent pricing, FPO-friendly for small farmers, simple language and voice support.
 
 ## Technical Approach
-Remove These Lines
-1. Technologies to be used (e.g. programming languages, frameworks, hardware)
-2. Methodology and process for implementation <b>(Flow Charts/Images/ working prototype)</b>
+Tools: Python, Streamlit, pandas, scikit-learn, SQLite.
+Flow: Farmer lists produce → buyer orders → system suggests price and groups deliveries → route is shown → payment is released after delivery.
+Include one flowchart (draw it in Canva or draw.io) and screenshots of your demo.
+
 
 ## Feasibility and Viability
-Remove These Lines
-1. Analysis of the feasibility of the idea
-2. Potential challenges and risks
-3. Strategies for overcoming these challenges
+Feasible because the tools are free and open-source and FPOs already exist.
+Revenue: a small 2 to 3% fee on each order.
+Challenges and fixes:
+Farmers with low digital skill → local-language, simple screens, FPO helpers.
+Trust → ratings and secure payment.
+Not enough users at start → begin with one district and a few crops.
 
 ## Impact and Benefits
-Remove These Lines
-1. Potential impact on the target audience
-2. Benefits of the solution (social, economic, environmental, etc.)
-
+Farmers: better price, faster payment.
+Consumers: fresher produce, lower price.
+Government: real-time price and supply data.
+Environment: less food waste and fewer transport trips.
+Do not state exact percentages as facts. If you mention numbers, call them “expected targets for a pilot.”
 ## Research and References
-Remove These Lines
-1. Details / Links of the reference and research work
+
+Verify the latest figures on each site before presenting them.
+e-NAM (National Agriculture Market)
+Agmarknet (mandi prices and arrivals)
+ONDC (Open Network for Digital Commerce)
+Bhashini (Indian-language AI)
+SFAC / FPO scheme
+Google OR-Tools, Vehicle Routing
+Department of Consumer Affairs, Price Monitoring
