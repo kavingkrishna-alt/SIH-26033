@@ -33,8 +33,7 @@ Innovation: transparent pricing, FPO-friendly for small farmers, simple language
 
 ## Technical Approach
 Tools: Python, Streamlit, pandas, scikit-learn, SQLite.
-Flow: Farmer lists produce → buyer orders → system suggests price and groups deliveries → route is shown → payment is released after delivery.
-Include one flowchart (draw it in Canva or draw.io) and screenshots of your demo.
+![flow_chart](flowchart.png)
 
 
 ## Feasibility and Viability
